@@ -18,7 +18,7 @@ import {
   MessageCircle, 
   Bot         
 } from 'lucide-react';
-
+import { Analytics } from "@vercel/analytics/next"
 import ColorBends from './components/Background/ColorBends';
 import SpotlightCard from './components/UI/SpotlightCard';
 import { Analytics } from "@vercel/analytics/react";
