@@ -18,10 +18,10 @@ import {
   MessageCircle, 
   Bot         
 } from 'lucide-react';
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react";
 import ColorBends from './components/Background/ColorBends';
 import SpotlightCard from './components/UI/SpotlightCard';
-import { Analytics } from "@vercel/analytics/react";
+
 
 const App = () => {
   const [scrolled, setScrolled] = useState(false);
